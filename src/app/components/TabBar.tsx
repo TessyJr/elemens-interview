@@ -92,9 +92,17 @@ export default function TabBar() {
       >
         <div className="pb-[87px]">
           <ul className="flex flex-col gap-8">
-            <li>About</li>
-            <li>Blogs</li>
-            <li>Contact Us</li>
+            <li>
+              <Link href={"/"}>About</Link>
+            </li>
+            <li>
+              {" "}
+              <Link href={"/"}>Blogs</Link>
+            </li>
+            <li>
+              {" "}
+              <Link href={"/"}>Contact Us</Link>
+            </li>
           </ul>
         </div>
       </div>
