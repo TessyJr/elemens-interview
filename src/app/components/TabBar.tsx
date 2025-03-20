@@ -11,24 +11,9 @@ export default function TabBar() {
   }
 
   return (
-    <nav className="bottom-0 w-full fixed">
-      <div
-        className={`@container/tab-bar border border-lightest-gray bg-white absolute w-full left-0 px-[10%] py-6 bottom-0 transition ${
-          isOtherMenuOpen ? "translate-y-0" : "translate-y-full"
-        }`}
-      >
-        <div className="pb-[87px]">
-          <ul className="flex flex-col gap-8">
-            <li>About</li>
-            <li>Blogs</li>
-            <li>Contact Us</li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Main Tab Bar */}
-      <div className="@container/tab-bar px-[10%] py-4 border border-lightest-gray bg-white">
-        <div className="flex items-center justify-between @4xl/tab-bar:hidden">
+    <nav className="bottom-0 w-full fixed lg:hidden">
+      <div className="px-[10%] py-4 border border-lightest-gray bg-white">
+        <div className="flex items-center justify-between">
           <div className="flex justify-center items-center text-light-gray">
             <Link
               href={"/"}
@@ -75,7 +60,6 @@ export default function TabBar() {
             </Link>
           </div>
 
-          {/* Toggle Button for Others Menu */}
           <div className="flex justify-center items-center text-light-gray">
             <button
               onClick={toggleOthersMenu}
@@ -98,6 +82,20 @@ export default function TabBar() {
               <p className="text-sm">Others</p>
             </button>
           </div>
+        </div>
+      </div>
+
+      <div
+        className={`border border-lightest-gray bg-white absolute w-full left-0 px-[10%] py-6 bottom-0 transition -z-50 ${
+          isOtherMenuOpen ? "translate-y-0" : "translate-y-full"
+        }`}
+      >
+        <div className="pb-[87px]">
+          <ul className="flex flex-col gap-8">
+            <li>About</li>
+            <li>Blogs</li>
+            <li>Contact Us</li>
+          </ul>
         </div>
       </div>
     </nav>

@@ -4,11 +4,11 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <header className="absolute w-full top-0 left-0 px-[10%] py-4">
-      <nav className="flex items-center justify-between @container/navbar">
+    <header className="absolute w-full top-0 left-0 px-[5%] py-4">
+      <nav className="flex items-center justify-between">
         <Link
           href={"/"}
-          className="@4xl/navbar:w-[207px] @4xl/navbar:h-[50px] relative flex-none w-[150px] h-[36]"
+          className="lg:w-[207px] lg:h-[50px] relative flex-none w-[150px] h-[36]"
         >
           <Image
             src={"/images/logos/elemens/elemens-logo.png"}
@@ -18,7 +18,7 @@ export default function Navbar() {
           />
         </Link>
 
-        <ul className="hidden justify-center items-center gap-8 text-sm font-medium text-light-gray transition @4xl/navbar:flex">
+        <ul className="hidden justify-center items-center gap-8 text-sm font-medium text-light-gray transition lg:flex">
           <li>
             <Link href={"/"} className="hover:text-moss-500 transition">
               Home
@@ -53,7 +53,7 @@ export default function Navbar() {
         <div className="flex gap-6 justify-center items-center">
           <Link
             href={"/"}
-            className="font-medium text-sm text-black hover:text-moss-500 transition hidden @4xl/navbar:inline"
+            className="font-medium text-sm text-black hover:text-moss-500 transition hidden lg:inline"
           >
             Masuk
           </Link>
