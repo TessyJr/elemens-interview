@@ -17,7 +17,7 @@
 @import "tailwindcss";
 
 @theme {
-  --font-rubik: "Rubik", "sans-serif";
+  --font-rubik: "Rubik", sans-serif;
 
   --color-moss-500: #8bac3e;
   --color-moss-100: #f0feeb;
@@ -34,4 +34,14 @@
 
   --color-olive-500: #a4b441;
   --color-olive-100: #f3f7d9;
+
+  --color-lighter-gray: #f2f2f2;
+  --color-light-gray: #757575;
+  --color-dark-gray: #333333;
+
+  --color-dark-orange: #e7462d;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
 }
