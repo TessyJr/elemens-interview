@@ -3,11 +3,6 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   size: "sm" | "md" | "lg";
   children: React.ReactNode;
 }
-// type ButtonProps = {
-//   variant: "primary" | "secondary" | "outline";
-//   size: "sm" | "md" | "lg";
-//   children: React.ReactNode;
-// } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export default function Button({
   variant = "primary",
@@ -15,7 +10,7 @@ export default function Button({
   children,
   ...props
 }: ButtonProps) {
-  const baseStyles = "font-medium rounded-full transition-all";
+  const baseStyles = "font-medium rounded-full transition-all cursor-pointer";
 
   let variantStyles;
   switch (variant) {
