@@ -18,4 +18,20 @@
 
 @theme {
   --font-rubik: "Rubik", "sans-serif";
+
+  --color-moss-500: #8bac3e;
+  --color-moss-100: #f0feeb;
+  --color-moss-50: #f9fff6;
+
+  --color-turquoise-500: #40a2b1;
+  --color-turquoise-100: #e6f3f5;
+
+  --color-azure-500: #405eb6;
+  --color-azure-100: #eaeefa;
+
+  --color-maroon-500: #b23f74;
+  --color-maroon-100: #f9eef3;
+
+  --color-olive-500: #a4b441;
+  --color-olive-100: #f3f7d9;
 }
