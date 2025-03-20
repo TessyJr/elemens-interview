@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Button from "../Button";
+import Button from "../../Button";
 import Image from "next/image";
-import Ratings from "../Ratings";
+import Ratings from "../../Ratings";
 
 export default function HeroSection() {
   return (
