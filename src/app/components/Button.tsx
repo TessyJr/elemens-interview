@@ -1,8 +1,13 @@
-type ButtonProps = {
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant: "primary" | "secondary" | "outline";
   size: "sm" | "md" | "lg";
   children: React.ReactNode;
-} & React.ButtonHTMLAttributes<HTMLButtonElement>;
+}
+// type ButtonProps = {
+//   variant: "primary" | "secondary" | "outline";
+//   size: "sm" | "md" | "lg";
+//   children: React.ReactNode;
+// } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export default function Button({
   variant = "primary",
