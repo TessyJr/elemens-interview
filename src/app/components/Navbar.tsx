@@ -4,7 +4,7 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <header className="absolute w-full top-0 left-0 px-[5%] py-4">
+    <header className="absolute w-full top-0 left-0 px-[8%] py-4 z-50">
       <nav className="flex items-center justify-between">
         <Link
           href={"/"}

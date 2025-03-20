@@ -11,8 +11,8 @@ export default function TabBar() {
   }
 
   return (
-    <nav className="bottom-0 w-full fixed lg:hidden">
-      <div className="px-[10%] py-4 border border-lightest-gray bg-white">
+    <nav className="bottom-0 w-full fixed lg:hidden z-50">
+      <div className="px-[8%] py-4 border border-lightest-gray bg-white">
         <div className="flex items-center justify-between">
           <div className="flex justify-center items-center text-light-gray">
             <Link
@@ -86,7 +86,7 @@ export default function TabBar() {
       </div>
 
       <div
-        className={`border border-lightest-gray bg-white absolute w-full left-0 px-[10%] py-6 bottom-0 transition -z-50 ${
+        className={`border border-lightest-gray bg-white absolute w-full left-0 px-[8%] py-6 bottom-0 transition -z-50 ${
           isOtherMenuOpen ? "translate-y-0" : "translate-y-full"
         }`}
       >
