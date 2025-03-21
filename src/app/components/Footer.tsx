@@ -191,7 +191,7 @@ export default function Footer() {
 
                 <button
                   type="submit"
-                  className="bg-moss-500 p-3 text-white font-medium text-sm flex-none cursor-pointer"
+                  className="bg-moss-500 transition hover:bg-moss-500/80 p-3 text-white font-medium text-sm flex-none cursor-pointer"
                 >
                   SEND
                 </button>

@@ -134,7 +134,7 @@ export default function CategorySection() {
         <div className="self-end flex justify-center items-center gap-4">
           <button
             onClick={() => scroll("left")}
-            className={`bg-moss-500 rounded-full p-2 flex gap-2 items-center ${
+            className={`bg-moss-500 hover:bg-moss-500/80 transition rounded-full p-2 flex gap-2 items-center ${
               !canScrollLeft
                 ? "opacity-50 pointer-events-none"
                 : "cursor-pointer"
@@ -162,7 +162,7 @@ export default function CategorySection() {
 
           <button
             onClick={() => scroll("right")}
-            className={`bg-moss-500 rounded-full p-2 flex gap-2 items-center ${
+            className={`bg-moss-500 hover:bg-moss-500/80 transition rounded-full p-2 flex gap-2 items-center ${
               !canScrollRight
                 ? "opacity-50 pointer-events-none"
                 : "cursor-pointer"

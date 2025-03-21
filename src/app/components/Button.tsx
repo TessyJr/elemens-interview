@@ -10,15 +10,16 @@ export default function Button({
   children,
   ...props
 }: ButtonProps) {
-  const baseStyles = "font-medium rounded-full transition-all cursor-pointer";
+  const baseStyles =
+    "relative font-medium rounded-full transition-all cursor-pointer";
 
   let variantStyles;
   switch (variant) {
     case "primary":
-      variantStyles = "bg-moss-500 text-white";
+      variantStyles = "bg-moss-500 text-white hover:bg-moss-500/80";
       break;
     case "secondary":
-      variantStyles = "bg-lighter-gray text-dark-gray";
+      variantStyles = "bg-lighter-gray text-dark-gray hover:bg-lighter-gray/80";
       break;
   }
 
