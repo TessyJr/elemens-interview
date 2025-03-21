@@ -7,8 +7,8 @@ This is a Next.js project prepared for an interview with Elemes Group.
 1. Clone the repository:
 
 ```sh
-git clone https://github.com/TessyJr/elemes-interview.git
-cd elemes-interview
+git clone https://github.com/TessyJr/elemes-group-interview.git
+cd elemes-group-interview
 ```
 
 2. Install dependencies:
@@ -37,4 +37,4 @@ npm run build
 
 ## Live Preview
 
-This project is deployed using vercel and can be accessed on
+This project is deployed using vercel and can be accessed on https://elemes-group-interview.vercel.app/.
