@@ -35,8 +35,8 @@ export default function Footer() {
               className="lg:w-[207px] lg:h-[50px] relative flex-none w-[150px] h-[36]"
             >
               <Image
-                src={"/images/logos/elemens/elemens-logo.png"}
-                alt="Elemens Group logo"
+                src={"/images/logos/elemes/elemes-logo.png"}
+                alt="elemes Group logo"
                 fill
                 className="object-fill w-full h-full"
               />
@@ -51,7 +51,7 @@ export default function Footer() {
 
           <div className="flex gap-4 items-start">
             <Link
-              href={"/"}
+              href="mailto:elemesid@gmail.com"
               className="bg-white text-moss-500 hover:bg-moss-500 hover:text-white transition-all rounded-full p-2"
             >
               <svg
@@ -71,7 +71,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href={"/"}
+              href="tel:+6288811112222"
               className="bg-white text-moss-500 hover:bg-moss-500 hover:text-white transition-all rounded-full p-2"
             >
               <svg
@@ -91,7 +91,9 @@ export default function Footer() {
             </Link>
 
             <Link
-              href={"/"}
+              href={"https://www.instagram.com/elemes_group"}
+              target="_blank"
+              rel="noreferrer noopener"
               className="bg-white text-moss-500 hover:bg-moss-500 hover:text-white transition-all rounded-full p-2"
             >
               <svg
@@ -224,7 +226,12 @@ export default function Footer() {
                 />
               </svg>
 
-              <p>elemesid@gmail.com</p>
+              <Link
+                href="mailto:elemesid@gmail.com"
+                className="hover:text-moss-500 transition"
+              >
+                elemesid@gmail.com
+              </Link>
             </div>
 
             <div className="flex items-center gap-3">
@@ -243,7 +250,13 @@ export default function Footer() {
                 />
               </svg>
 
-              <p> 0888 1111 2222 </p>
+              <Link
+                href="tel:+6288811112222"
+                className="hover:text-moss-500 transition"
+              >
+                {" "}
+                0888 1111 2222{" "}
+              </Link>
             </div>
           </div>
         </div>

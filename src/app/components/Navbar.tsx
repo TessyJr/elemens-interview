@@ -11,8 +11,8 @@ export default function Navbar() {
           className="lg:w-[207px] lg:h-[50px] relative flex-none w-[150px] h-[36]"
         >
           <Image
-            src={"/images/logos/elemens/elemens-logo.png"}
-            alt="Elemens Group logo"
+            src={"/images/logos/elemes/elemes-logo.png"}
+            alt="elemes Group logo"
             fill
             className="object-fill w-full h-full"
           />
