@@ -26,7 +26,7 @@ export default function Footer() {
   }
 
   return (
-    <footer className="px-[8%] pt-16 pb-32 flex flex-col gap-8">
+    <footer className="px-[8%] py-32 flex flex-col gap-16">
       <div className="bg-moss-50 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-16 rounded-2xl gap-16">
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-4">
