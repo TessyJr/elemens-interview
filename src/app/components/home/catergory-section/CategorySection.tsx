@@ -127,7 +127,6 @@ export default function CategorySection() {
               name="Doughnut"
               amount={11}
             />
-            /
           </Link>
         </div>
 
